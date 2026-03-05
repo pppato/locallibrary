@@ -30,7 +30,7 @@ import dj_database_url
 SECRET_KEY = os.environ.get('SECRET_KEY', SECRET_KEY)
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost').split(',')
+ALLOWED_HOSTS = ['web-production-863f8.up.railway.app', 'localhost', '127.0.0.1']
 
 
 # Application definition
